@@ -1,0 +1,160 @@
+nav{
+    height:100px;
+    background-color: #ff9000;
+    z-index: 10;
+}
+
+#logo{
+    display: flex;
+    border: #000 solid 0px;
+    border-radius: 50%;
+    background-color: #ff9000;
+    margin-top:40px;
+}
+
+#image-logo{
+    margin-left: -50px;
+    padding: 10px;
+}
+.buttons{
+    font-size:15px;
+    font-weight: bold;
+    color:#fff;
+    background-color:#ff9000 ;
+}
+
+.last-image{
+    margin-left:67%; 
+    margin-top:-18%;
+}
+
+.padding-for-tittle{
+    padding-right: 150px;
+    font-size:20px;
+    font-weight: bold;
+    color:#fff;
+}
+
+#product{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#featured{
+    font-weight: bold;
+}
+
+.display{
+    text-align:center;
+}
+
+#card-motor{
+    background-image:url(images/parallax.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width:90%;
+    text-align:center;
+    padding-top:10%;
+    padding-bottom:10%;
+}
+
+#card-motor-padding{
+    padding-left:10%;
+    padding-top:5%;
+    padding-bottom: 5%;
+}
+
+.color-for-button{
+    background-color:#ff9000;
+    color:#fff;
+}
+
+#clearance{
+    font-size: 60px;
+}
+
+#top{
+    font-size: 30px;
+}
+
+#padding-for-text{
+    padding-top:7%;
+    padding-bottom: 2%;
+    text-align:center;
+}
+#center{
+text-align:center;
+}
+
+.padding-bottom{
+    padding-bottom: 7%;
+}
+
+#contact-section {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top:60px;
+    padding-bottom:60px;
+  }
+  
+  p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  
+  i {
+    margin-right: 8px;
+  }
+  
+  footer{
+    background-color: #ff9000;
+  }
+
+  #whatsapp{
+    padding-right: 50px; 
+  }
+@media  screen and (max-width:1028px) {
+    .last-image{
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .padding-for-tittle{
+        visibility: hidden;
+    }
+
+    nav{
+        height:90px;
+    }
+
+    .carousel-inner{
+        padding-top:20px;
+    }
+
+    .card-2{
+        margin-left:50%;
+        margin-top:-70.5%;
+    }
+
+    #logo{
+        background-color: transparent;
+    }
+
+    #image-logo{
+        height:120px;
+        margin-top:-100%;
+    }
+
+    #whatsapp{
+        height:70px;
+        margin-left:140px;
+        margin-top:-140px;
+    }
+
+    .navbar-toggler{
+        margin-left:100px;
+        margin-top:-20px;
+    }
+}
