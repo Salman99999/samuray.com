@@ -28,13 +28,6 @@ nav{
     margin-top:-18%;
 }
 
-.padding-for-tittle{
-    padding-right: 150px;
-    font-size:20px;
-    font-weight: bold;
-    color:#fff;
-}
-
 #product{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -78,25 +71,16 @@ nav{
     font-size: 30px;
 }
 
-#padding-for-text{
-    padding-top:7%;
-    padding-bottom: 2%;
-    text-align:center;
-}
 #center{
 text-align:center;
 }
 
-.padding-bottom{
-    padding-bottom: 7%;
-}
-
 #contact-section {
-    width: 500px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
-    padding-top:60px;
-    padding-bottom:60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   
   p {
@@ -104,10 +88,7 @@ text-align:center;
     margin-bottom: 16px;
   }
   
-  i {
-    margin-right: 8px;
-  }
-  
+ 
   footer{
     background-color: #ff9000;
   }
@@ -115,7 +96,11 @@ text-align:center;
   #whatsapp{
     padding-right: 50px; 
   }
-@media  screen and (max-width:1028px) {
+  .whatsapp-btn {
+    display: none;
+  }
+
+@media  screen and (max-width:550px) {
     .last-image{
         margin-left: 0;
         margin-top: 0;
@@ -147,14 +132,42 @@ text-align:center;
         margin-top:-100%;
     }
 
-    #whatsapp{
-        height:50px;
-        margin-left:140px;
-        margin-top:-140px;
+    .navbar-toggler{
+        margin-left: 80%;
+        margin-top: -30%;
     }
 
-    .navbar-toggler{
-        margin-left:100px;
-        margin-top:-20px;
+    #whatsapp{
+       display: none;
     }
+
+    .whatsapp-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: #25D366;
+        color: #fff;
+        font-size: 30px;
+        line-height: 50px;
+        text-align: center;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+        transition: all 0.3s ease;
+        z-index: 20;
+      }
+      
+      .whatsapp-btn:hover {
+        background-color: #128C7E;
+        color:#fff;
+      }
+      
+      .fa-whatsapp {
+        margin-top: 1px;
+      }
+      
 }
